@@ -12,33 +12,22 @@
 
 
 <h1 id="title" style="color:white;">Survey form</h1>
-<p id="description">
-  A place to submit feedback regarding the Microverse experience.
-</p>
-<form id="survey-form">
+<P id="decription">
+<form id="survey-form" onsubmit=validate()>
 
-<<<<<<< HEAD
 <div class="form-field">
   <label for="name" id="name">Name</label>
-=======
-<div class="form-field" >
-  <label for="name" >Name</label>
->>>>>>> 28e172c8495b75a5b467e182e657b00a93f0adc8
   <input type="text" id="name" placeholder="Enter your name">
 </div>
 
 <div class="form-field">
   <label for="email" id="email">Email</label>
-<<<<<<< HEAD
   <input type="email" id="email" placeholder="Enter your email">
-=======
-  <input type="email"  placeholder="Enter your email">
->>>>>>> 28e172c8495b75a5b467e182e657b00a93f0adc8
 </div>
 
 <div class="form-field">
-  <label for="age" id="number">Age</label>
-  <input type="number" placeholder="Enter your age" min="18" max="100">
+  <label for="age" id="age-label">Age</label>
+  <input type="number" id="number-label" placeholder="Enter your age" min="18" max="100">
 </div>
 <div class="form-field">
   <label for="profession" id="profession">Profession that describe</label>
@@ -53,16 +42,16 @@
     <label for="1" id="1">Would you Microverse to a friend</label>
     <label for="def">
       <input type=radio id=def name=def>Definitely
-      <input type=radio id=def name=def>Maybe
+      <input type=radio id=def name=def>Maybe>
       <input type=radio id=def name=def>Not sure
     </div>
     <div class="form-field">
       <label for="2 id="2">What do you like to see improve</label>
          <label  for="def-1">Front-End Projects
         <input value="" type="checkbox" name="2">
-        <label for="def-2">
+        <label for="def-2">Backend Projects
         <input value="" type="checkbox" name="3">
-        <label for="def-3">
+        <label for="def-3">Miiddleware Projects
         <input value="" type="checkbox" name="2">
       </div>
 
