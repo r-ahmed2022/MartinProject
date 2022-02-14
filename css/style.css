@@ -1,0 +1,43 @@
+body
+{
+
+  background-color: #6F23FF;
+  font-family: Arial;
+  text-align:center;
+  }
+
+  form
+    {
+
+    background-color:#8E8EF0;
+    max-width:600px;
+    margin:40px auto;
+    padding:20px 20px;
+     }
+
+
+
+  .form-field
+  {
+      text-align:left;
+      margin-bottom:20px;
+
+  }
+
+  .form-field textarea , select , input
+  {
+    border: 2px solid #636C98;
+    padding:10px;
+    display:block;
+    width:90%;
+    border-radius:4px;
+  }
+
+  #btn
+   {
+    background-color: #FFD540;
+    width:100%
+    display:block;
+    border-radius:3px;
+    border:2px solid;
+   }
