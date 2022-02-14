@@ -22,18 +22,6 @@ INSTRUCTIONS:
     along the way!
     ************/
 
-    $(function () {
-          var inputs = document.getElementsByTagName("INPUT");
-          for (var i = 0; i < inputs.length; i++) {
-              inputs[i].oninvalid = function (e) {
-                  e.target.setCustomValidity("");
-                  if (!e.target.validity.valid) {
-                      e.target.setCustomValidity(e.target.getAttribute("data-error"));
-                  }
-              };
-          }
-      });
-
 
 // PLEASE NOTE: Adding global style rules using the * selector, or by adding rules to body {..} or html {..}, or to all elements within body or html, i.e. h1 {..}, has the potential to pollute the test suite's CSS. Try adding: * { color: red }, for a quick example!
 
