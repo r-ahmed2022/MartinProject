@@ -25,7 +25,7 @@ INSTRUCTIONS:
     function validate()
     {
       let i=document.forms["survey-form"]["name"].value
-      if(i==""){
+      if(i===""){
         alert("enter name first")
         return false;
       }
