@@ -24,9 +24,9 @@ INSTRUCTIONS:
 
     function validate()
     {
-      let i=document.forms["survey-form"]["name"].value
+      let i=document.forms["survey-form"]["name"].value;
       if(i===""){
-        alert("enter name first")
+alert("Name must be filled out");
         return false;
       }
     }
